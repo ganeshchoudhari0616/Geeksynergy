@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .movie-item {
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+  }
+  
+  .movie-poster {
+    flex: 0 0 100px;
+    background-color: #ddd;
+    /* Add your placeholder image here */
+    background-image: url(your-placeholder-image.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .movie-info {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .movie-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .movie-genre,
+  .movie-director,
+  .movie-starring {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .movie-views {
+    color: #888;
+  }
+  
+  .movie-watch-trailer {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .movie-watch-trailer:hover {
+    text-decoration: underline;
+  }
